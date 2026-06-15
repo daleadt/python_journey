@@ -1,0 +1,10 @@
+a = 10
+b = 20
+c = -2
+d = 10.20
+e = 88.3
+f = -39.7
+print(a, b, c)
+print(type(a), type(b), type(c))
+print(d, e, f)
+print(type(d), type(e), type(f))
