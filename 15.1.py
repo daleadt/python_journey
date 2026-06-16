@@ -1,3 +1,5 @@
+#example: to count  particular no. of a letter in a string
+
 a="hii, how are you?"
 print(a.count("i"))
 

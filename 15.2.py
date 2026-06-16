@@ -1,3 +1,5 @@
+# example: to sort pass and fail students from the dictionary
+
 student_marks={
     "harry": 20,
     "rohan": 78,    
@@ -12,7 +14,7 @@ input=input("enter the name of the student: ")
 for  name,values in student_marks.items():
     if name==input:
         if values>40:
-            print(name,"pass")
+            print(name,"-pass")
         else:
             print(name,"fail")
 
