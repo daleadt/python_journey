@@ -41,6 +41,8 @@ else:
 
 if booking_type == "online":
     final_amount = amount - (amount * 0.10)
+elif booking_type== "window":
+    final_amount = amount
 elif booking_type == "advance":
     final_amount = amount - (amount * 0.08)
 elif booking_type == "online+ advance":
@@ -52,11 +54,11 @@ final_amount *= no_of_seats
 
 
 print("--------TICKET BOOKING DETAILS--------")
-print("Booking Type:",    booking_type)
-print("Seat Type:",       seat_type)
-print("Ticket Price:",    amount)
+print("Booking Type:   ", booking_type)
+print("Seat Type:      ", seat_type)
+print("Ticket Price:   ", amount)
 print("Number of Seats:", no_of_seats)
-print("Final Amount:",  final_amount)
+print("Final Amount:   ", final_amount)
 print("---------------------------------------")
 
 
